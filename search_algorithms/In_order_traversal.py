@@ -14,4 +14,3 @@ def printInorder(root):
         print(root.node_value), 
   
         printInorder(root.right_node) 
-  

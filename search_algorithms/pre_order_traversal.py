@@ -12,4 +12,4 @@ def printPreorder(root):
   
         printPreorder(root.left_node) 
   
-        printPreorder(root.right_node) 
+        printPreorder(root.right_node)

@@ -13,4 +13,4 @@ def printPostorder(root):
   
         printPostorder(root.right_node) 
   
-        print(root.node_value), 
+        print(root.node_value)
