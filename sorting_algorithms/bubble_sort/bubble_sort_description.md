@@ -1,0 +1,1 @@
+This is a sorting algorithm that repeatedly checks adjacent elements and if they are not in order it swaps them. This is done through multiple passes on a list.
