@@ -35,4 +35,4 @@ def heap_sort(list_of_values):
 
 list_of_values = [400, 1, 29, 90, 12, 4, 78, 100, 90]
 heap_sort(list_of_values)
-print("Sorted array is", list_of_values)
+print('Sorted array is %s' % list_of_values)
