@@ -1,0 +1,1 @@
+Merge sort is termed as a divide and conquer algorithm which divides the list into equal halves, sorts them then combines them. It keeps dividing the list into equal halves then it combines the smaller sorted lists while keeping then in a sorted order.
