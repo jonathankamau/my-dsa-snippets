@@ -4,9 +4,9 @@ def bubble_sort(list):
             if list[index] > list[index+1]:
                 temp = list[index]
                 list[index] = list[index+1]
-                list[iindex+1] = temp
+                list[index+1] = temp
 
 
 list = [100, 20, 34, 10, 89, 90, 40, 30, 120]
 bubble_sort(list)
-print(list)
+print('sorted list =%s' % list)

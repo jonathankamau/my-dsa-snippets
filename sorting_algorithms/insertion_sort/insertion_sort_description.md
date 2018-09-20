@@ -1,1 +1,3 @@
-This is a comparison based sorting algorithm that sequentially searches through an array and items that aren't sorted are 
+This is a comparison based sorting algorithm that sequentially searches through an array and items that aren't sorted are moved and added to a sorted sub list.
+ This is best used with a small number of elements. Binary search can be used together with this sorting algorithm so as to shorten the time it takes in making comparisons.
+ The way it basically works is by beginning to compare the first element with the second one, if the second element is smaller, they get arranged with the second element getting inserted into the position of the first element. The third element is compared against the first and second element. If the third element is smaller than any of the first two elements, it's inserted at that element's position.
