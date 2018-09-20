@@ -1,0 +1,2 @@
+This is a sorting technique that involves building a binary heap from a given array and then using the heap to sort the array.
+A binary heap is a complete binary tree where the parent node is either greater or smaller that its two child nodes/

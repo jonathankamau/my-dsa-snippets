@@ -1,0 +1,2 @@
+Hashing is a technique of converting a key value to an index that makes it easily searchable. These indexes can be stored in an array which are associated with their data values. A hash table stores these as key/value pairs but in this case the key is the index that has been generated from the hashing function.
+The dictionary implementation in python is an example of a hash table.

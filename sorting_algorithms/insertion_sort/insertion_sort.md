@@ -1,0 +1,1 @@
+This is a comparison based sorting algorithm that sequentially searches through an array and items that aren't sorted are 
