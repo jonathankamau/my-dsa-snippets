@@ -1,1 +1,2 @@
-from data_structures.graphs import Graph
+from data_structures.graph.node import Node
+
