@@ -5,7 +5,7 @@ class BreadthFirstSearch:
     def __init__(self):
         self.graph = Graph()
 
-    def BFS(self, s):
+    def bfs_implementation(self, s):
  
         visited = [False] * (len(self.graph))
  
@@ -27,4 +27,4 @@ class BreadthFirstSearch:
 
 bfs = BreadthFirstSearch()
 print("Following is Breadth First Traversal (starting from vertex 2)")
-bfs.BFS(2)
+bfs.bfs_implementation(2)
