@@ -1,3 +1,15 @@
+'''
+This algorithm makes use of the "divide and conquer" principle and for it to work the data collection has to be in sorted form. 
+It locates the midpoint of the data collection, then from the index it compares the middle value with the search item to determine the location of the item. 
+It ends up returning the position of the item. This search method is much faster than linear search. 
+
+Binary search has a best case eficiency of 0(1) and worst case efficiency of 0(log n).
+How the worst case efficiency gets derived is in a case where for instance to search for an element in a sorted list of 16 elements
+you would have to divide that list 4 times, so the equation becomes
+16 * (1/2)power of 4 = 1
+so for n elements it will be n * (1/2)power of k = 1
+which equates to n = 2 to the power of k
+'''
 def binary_search_implementation(number_list, search_item):
     
     list_size = len(number_list) - 1
