@@ -17,7 +17,8 @@ class DepthFirstSearch:
         """Depth First Search Implementation."""
         start_node = self.graph.find_node(start_node_num)
         message = 'Search Item not found!'
-
+        # check if the search term is equal to the value of the start node
+        # if not, mark the node as visited and move on to the next one.
         if self.graph.node_names[start_node.value] == search_term:
             start_node.visited = True
             message = 'Found the Search Item! ' + \
