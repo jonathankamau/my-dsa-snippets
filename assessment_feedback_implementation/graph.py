@@ -76,8 +76,7 @@ graph.set_node_names(('Kisumu',
                       'Mombasa',
                       'Nairobi',
                       'Lagos',
-                      'Kigali',
-                      'Kampala'))
+                      'Kigali'))
 
 graph.insert_edge(51, 0, 1)
 graph.insert_edge(51, 1, 0)
