@@ -8,6 +8,9 @@ class Node(object):
         self.value = value
         self.edges = []
         self.visited = False
+        self.total_cost = 0
+        self.distance_from_start = 0
+        self.heuristic = 0
 
 
 class Edge(object):
@@ -30,7 +33,6 @@ class Graph(object):
 
     def set_node_names(self, names):
         """
-        The Nth name corresponds to node number N.
         Node numbers are 0 based (starting at 0).
         """
         self.node_names = list(names)
@@ -78,8 +80,8 @@ graph.set_node_names(('Kisumu',
                       'Lagos',
                       'Kigali'))
 
-graph.insert_edge(51, 0, 1)
-graph.insert_edge(51, 1, 0)
+graph.insert_edge(5110, 0, 1)
+graph.insert_edge(5110, 1, 0)
 graph.insert_edge(9950, 0, 3)
 graph.insert_edge(9950, 3, 0)
 graph.insert_edge(10375, 0, 5)
