@@ -1,3 +1,13 @@
+'''
+This is a sorting algorithm that repeatedly checks adjacent elements and if 
+they are not in order it swaps them. 
+This is done through multiple passes on a list. For each iteration, the 
+largest element in the array will "bubble" to the top. 
+The efficiency or worst case  of this algorithm is O(nˆ2). This is however 
+considered not to be a practical sorting algorithm.
+'''
+
+
 def bubble_sort(list):
     for iterated_numbers in range(len(list)-1, 0, -1):
         for index in range(iterated_numbers):

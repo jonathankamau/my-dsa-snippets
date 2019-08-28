@@ -1,10 +1,7 @@
 '''
-Breadth First Search Implementation
+A* Search Implementation
 '''
-import pprint
 from graph import graph
-
-pp = pprint.PrettyPrinter(indent=2)
 
 
 class AStarSearch:

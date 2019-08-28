@@ -1,14 +1,22 @@
+'''
+This is a sorting technique that involves building a binary heap from a given 
+array and then using the heap to sort the array.
+A binary heap is a complete binary tree where the parent node is either 
+greater or smaller that its two child nodes.
+'''
+
+
 def make_heap(list_of_values, n, index):
     largest = index
     left_child_index = 2 * index + 1
     right_child_index = 2 * index + 2
 
-    if (left_child_index < n and list_of_values[index]      
+    if (left_child_index < n and list_of_values[index]
             < list_of_values[left_child_index]):
 
         largest = left_child_index
 
-    if (right_child_index < n and list_of_values[largest] 
+    if (right_child_index < n and list_of_values[largest]
             < list_of_values[right_child_index]):
 
         largest = right_child_index
